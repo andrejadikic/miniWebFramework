@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb013ac2-b316-4c77-a369-7814be0b9e80" name="Changes" comment="Mini">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/classDiscovery/ClassLocatorForDirectory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/classDiscovery/ClassLocatorForJarFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/dependencyContainer/DIContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/dependencyContainer/DIEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/dependencyContainer/Router.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/application/server/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/classDiscovery/ClassLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/dependencyInjection/ScopeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/dependencyInjection/annotations/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/dependencyInjection/annotations/Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/dependencyInjection/annotations/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/dependencyInjection/annotations/Qualifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/dependencyInjection/annotations/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/exceptions/ClassLocationException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/routesRegistration/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/routesRegistration/DELETE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/routesRegistration/GET.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/routesRegistration/POST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/routesRegistration/PUT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/routesRegistration/Path.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/webframework/request/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/webframework/request/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/webframework/request/enums/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/webframework/request/exceptions/RequestNotValidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/webframework/response/JsonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/webframework/response/RedirectResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/model/webframework/response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/utility/WebRequestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enums/DirectoryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/BeforeAfterCalculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/Test3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Opel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/component/ComponentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/test/service/ServiceTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2WcDxuO3rVpIIvs939y7yDIkyzh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/andreja/faks/napredno web/miniWebFramework/src/test/java",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "/Users/andreja/faks/napredno web/miniWebFramework/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/test/java/component" />
+      <recent name="$PROJECT_DIR$/src/test/java/bean" />
+      <recent name="$PROJECT_DIR$/src/main/java/adapter/dependencyContainer" />
+      <recent name="$PROJECT_DIR$/src/main/java/adapter" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="domain.model.exceptions" />
+      <recent name="domain.model.dependencyInjection" />
+      <recent name="domain.model" />
+      <recent name="domain.model.classDiscovery" />
+      <recent name="model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.application.server.Server">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.Main" />
+      <module name="miniWebFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="server.Server" />
+      <module name="miniWebFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="application.server.Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="application.server.Server" />
+      <module name="miniWebFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="application.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.application.server.Server" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.application.server.Server" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb013ac2-b316-4c77-a369-7814be0b9e80" name="Changes" comment="" />
+      <created>1697023224870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697023224870</updated>
+      <workItem from="1697023226261" duration="26700000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
